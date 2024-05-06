@@ -4,11 +4,10 @@
   "type": "module",
   "packageManager": "pnpm@8.6.0",
   "author": {
-    "name": "Elian Van Cutsem",
-    "email": "hello@elian.codes",
-    "url": "https://www.elian.codes/"
+    "name": "jess",
+    "url": "https://www.jessica.tech/"
   },
-  "homepage": "https://brutal.elian.codes",
+  "homepage": "https://jessica.tech",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

@@ -22,15 +22,13 @@ const learning = [
 { name: 'Japanese', url: 'https://www.wanikani.com/users/jesslynnrose' },
 { name: 'Indonesian', url:'https://publish.obsidian.md/jesslynnrose/Welcome'},
 { name: 'AI datasets'},
-{ name: 'Web technologies'},
+{ name: 'HTML, CSS, JS'},
 ]
 
 const bootcamp = [
 { name: 'Website', url: 'https://www.badwebsite.club' },
 { name: 'Discord', url:'https://discord.gg/UgweYN8q'},
-{ name: 'Next start date: Jan 2025'},
-{ name: 'Web curriculum', url: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/'},
-{ name: 'JavaScript curriculum', url: 'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/'}
+{ name: 'Next start date: Jan 2025'}
 ]
 ---
 
@@ -41,7 +39,7 @@ const bootcamp = [
 >
   <main class='bg-pink p-6'>
     <MobileSocials />
-    <section id='about' class='grid lg:grid-cols-8 lg:grid-rows-2 gap-8 mt-4 items-stretch'>
+    <section id='about' class='grid md:grid-cols-8 md:grid-rows-2 gap-8 mt-4 items-stretch'>
       <h2 class='hidden'>About Jess</h2>
       <div class='col-span-4 row-span-2'>
         <Card>
@@ -62,10 +60,10 @@ const bootcamp = [
           </div>
         </Card>
       </div>
-      <div class='col-span-4 sm:col-span-2 row-span-1'>
+      <div class='col-span-2 row-span-1'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Works on
+            I work on
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
@@ -87,10 +85,10 @@ const bootcamp = [
           </ul>
         </Card>
       </div>
-      <div class='col-span-4 sm:col-span-2 row-span-1'>
+      <div class='col-span-2 row-span-1'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Likes
+            Exploring
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
@@ -117,7 +115,7 @@ const bootcamp = [
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-2 dm-serif'>
             Bad Website Club
           </h2>
-          <p class='mt-2 outfit text-xl md:text-1xl lg:text-1xl mb-8'>Jess and her bestie <a class='underline' href="https://carmenh.dev/">Carmen</a> teach free, part time online bootcamps for web and JS based on the <a class='underline' href="https://freecodecamp.org">freeCodeCamp</a> curricula</p>
+          <p class='mt-2 outfit text-xl md:text-1xl lg:text-1xl mb-8'>Jess and her bestie <a class='underline' href="https://carmenh.dev/">Carmen</a> teach free, part time online bootcamps</p>
           <ul class='flex gap-4 flex-wrap'>
             {
               bootcamp.map((item) => (

@@ -1,6 +1,10 @@
+
+
+Built on the:
 ## Brutal Theme ##
 
-All development & Content by Elian Van Cutsem
+All theme development & theme Content by Elian Van Cutsem
 
 - email: hello@elian.codes
 - website: www.elian.codes
+
