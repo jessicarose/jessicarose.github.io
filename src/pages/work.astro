@@ -5,138 +5,73 @@ import MobileSocials from '@components/home/MobileSocials.astro';
 import { Pill } from '@eliancodes/brutal-ui';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
+import type { FileWatcherEventKind } from 'typescript';
 
-const projects = [
-  { name: 'Common Voice', url: 'https://commonvoice.mozilla.org/' },
-  {
-    name: 'Conference Talks',
-    url: 'https://youtu.be/FYrhgCh0XV4?feature=shared',
-  },
-  {
-    name: 'Open Source',
-    url: 'github.com/jessicarose',
-  }
-];
 
-const learning = [
-{ name: 'Japanese', url: 'https://www.wanikani.com/users/jesslynnrose' },
-{ name: 'Indonesian', url:'https://publish.obsidian.md/jesslynnrose/Welcome'},
-{ name: 'AI datasets'},
-{ name: 'HTML, CSS, JS'},
-]
-
-const bootcamp = [
-{ name: 'Website', url: 'https://www.badwebsite.club' },
-{ name: 'Discord', url:'https://discord.gg/UgweYN8q'},
-{ name: 'Next start date: Jan 2025'}
-]
 ---
 
 <Layout
   title='Jessica.tech'
   pageTitle='Jessica.tech'
-  description='Personal website for Jessica Rose'
+  description='Information about working with Jessica Rose'
 >
-  <main class='bg-pink p-6'>
+  <main class='bg-pink p-6 h-screen'>
     <MobileSocials />
     <section id='about' class='grid md:grid-cols-8 md:grid-rows-2 gap-8 mt-4 items-stretch'>
-      <h2 class='hidden'>About Jess</h2>
-      <div class='col-span-4 row-span-2'>
+      <h2 class='hidden'>Let's work together</h2>
+      <div class='col-span-5 row-span-3'>
         <Card>
           <div class='flex flex-col justify-between items-start gap-4'>
             <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
-              Jessica Rose is <a
-                class='text-white'
-                target='_blank'
-                href='https://github.com/jessicarose'>excited</a
-              >
+              What I do
             </p>
-            <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
-              about language, technology and how we connect with each other.
+            <p class='mt-1 outfit text-xl md:text-1xl lg:text-1xl'>
+              Hi. If you've come to this page, you probably want to learn a bit more about what I do. I'm lucky enough to get to spend a lot of my time working on teaching, passion projects and independent research that I get asked this a lot.</p>
+              
+              <p class='mt-1 outfit text-xl md:text-1xl lg:text-1xl'>I'm a developer relations and developer education strategist with 10 years of experience. I focus on working with open source projects.
             </p>
-            <Button target={'_self'} href='/blog/'>
-              She writes about it &rarr;
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">I work part time as the technology community lead at the Mozilla Foundation for <a href="https://commonvoice.mozilla.org/" class="underline">Common Voice</a>, a copyright free, multilingual speech corpus. I manage the <a href="https://github.com/common-voice/common-voice" class="underline">open source platform</a> that drives the dataset, own documentation, handle outreach strategy and promote the project.</p>
+
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">I founded and co-run the <a href="https://badwebsite.club" class="underline">Bad Website Club</a>, a free web and JavaScript bootcamp that supports the <a href="https://freecodecamp.org" class="underline">freeCodeCamp</a> curricula. We've served over 50,000 unique learners globally since 2020.</p>
+
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">I am available for consulting or contracts around these commitments and I'm always excited to find projects I can learn and explore with. Even if a project isn't a good fir for me, I'm often able to (and excited to) introduce you to other talent in my network that might be a great match.</p>
+
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">The contracts I like best are ongoing strategy consulting roles to let add deeply experienced support and insights into an existing team. These arrangements generally involve a retainer agreement with me joining key planning meetings throughout your workweek and joining in further activities as needed. I'm always happy to prioritize these contracts in my scheduling.</p>
+            <Button target={'_self'} href='/contact/'>
+              Get in touch &rarr;
             </Button>
           </div>
         </Card>
       </div>
-      <div class='col-span-2 row-span-1'>
+      <div class='col-span-3 row-span-1'>
+        <Card>
+          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-3 dm-serif'>
+            Hire Jess for
+          </h2>
+          <ul class='outfit text-xl md:text-1xl lg:text-2xl'>
+           <li class="mb-1"><hidden>🌸</hidden> Developer relations strategy</li>
+           <li class="mb-1"><hidden>🌺</hidden> Developer education strategy</li>
+           <li class="mb-1"><hidden>🌻</hidden> Technical and education content</li>
+           <li class="mb-1"><hidden>🌼</hidden> Talk writing and coaching</li>
+           <li class="mb-1"><hidden>🪻</hidden> Open source consulting</li>
+           <li class="mb-1"><hidden>🪷</hidden> OSS and linguistics research tasks</li>
+          </ul>
+        </Card>
+      </div>
+      <div class='col-span-3 row-span-1'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            I work on
+            Don't hire Jess for
           </h2>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              projects.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
-          </ul>
+          <ul class='outfit text-xl md:text-1xl lg:text-2xl'>
+            <li class="mb-1"><hidden>👺</hidden> Ethics mismatches</li>
+            <li class="mb-1"><hidden>☕️</hidden> Constant-crunch projects</li>
+            <li class="mb-1"><hidden>💸</hidden> Crypto/Web 3 projects</li>
+            <li class="mb-1"><hidden>⚔️</hidden> High conflict teams</li>
+           </ul>
         </Card>
       </div>
-      <div class='col-span-2 row-span-1'>
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Exploring
-          </h2>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              learning.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
-          </ul>
-        </Card>
-      </div>
-      <div class='col-span-4 row-span-1'>
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-2 dm-serif'>
-            Bad Website Club
-          </h2>
-          <p class='mt-2 outfit text-xl md:text-1xl lg:text-1xl mb-8'>Jess and her bestie <a class='underline' href="https://carmenh.dev/">Carmen</a> teach free, part time online bootcamps</p>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              bootcamp.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
-          </ul>
-        </Card>
-      </div>
+      
     </section>
-    <RecentBlogPosts />
   </main>
 </Layout>

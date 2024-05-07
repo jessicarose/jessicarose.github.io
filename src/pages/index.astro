@@ -6,23 +6,28 @@ import { Pill } from '@eliancodes/brutal-ui';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 
-const projects = [
+const does = [
   { name: 'Common Voice', url: 'https://commonvoice.mozilla.org/' },
   {
     name: 'Conference Talks',
     url: 'https://youtu.be/FYrhgCh0XV4?feature=shared',
   },
   {
-    name: 'Open Source',
-    url: 'github.com/jessicarose',
-  }
+    name: 'Open Source',url: 'github.com/jessicarose'},
+    { name: 'Kanji', url: 'https://www.wanikani.com/users/jesslynnrose' },
+    { name: 'Learning Indonesian 🔰', url:'https://publish.obsidian.md/jesslynnrose/Welcome'},
+    { name: 'Brum Tech Slack', url:'https://docs.google.com/forms/d/e/1FAIpQLSex78x9s3Ijl9PruWpy1vMsRrqdu75N3D4wnicg0983WUBMGg/viewform?usp=sf_link'}
 ];
 
-const learning = [
-{ name: 'Japanese', url: 'https://www.wanikani.com/users/jesslynnrose' },
-{ name: 'Indonesian', url:'https://publish.obsidian.md/jesslynnrose/Welcome'},
-{ name: 'AI datasets'},
-{ name: 'Web technologies'},
+const likes = [
+{ name: 'Internet Archive', url: 'https://archive.org/' },
+{ name: 'Open Syllabus', url: 'https://www.opensyllabus.org/'},
+{ name: 'Francophone webradio', url: 'https://www.radiofrance.fr/fip/radio-sacre-francais'},
+{ name: 'BOM Lab', url: 'https://bom.org.uk/'},
+{ name: 'Pen Museum', url: 'https://penmuseum.org.uk/'},
+{ name: 'Birmingham', url: 'http://www.paradisecircus.com/'},
+{ name: 'Tapirs', url: 'https://en.wikipedia.org/wiki/Tapir'},
+{ name: 'LibraryThing', url: 'https://www.librarything.com/'},
 ]
 
 const bootcamp = [
@@ -56,6 +61,9 @@ const bootcamp = [
             <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
               about language, technology and how we connect with each other.
             </p>
+            <p class='mt-2 mb-2 outfit text-xl md:text-3xl lg:text-5xl'>
+              She's always excited to hear about what other people are excited to talk about.
+            </p>
             <Button target={'_self'} href='/blog/'>
               She writes about it &rarr;
             </Button>
@@ -65,11 +73,11 @@ const bootcamp = [
       <div class='col-span-4 sm:col-span-2 row-span-1'>
         <Card>
           <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            Works on
+            Does
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
-              projects.map((item) => (
+              does.map((item) => (
                 <li>
                   <Pill>
                     <a
@@ -94,7 +102,7 @@ const bootcamp = [
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
-              learning.map((item) => (
+              likes.map((item) => (
                 <li>
                   <Pill>
                     <a

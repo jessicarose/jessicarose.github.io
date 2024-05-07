@@ -1,0 +1,77 @@
+---
+import Layout from '@layouts/Default.astro';
+import RecentBlogPosts from '@components/generic/RecentBlogPosts.astro';
+import MobileSocials from '@components/home/MobileSocials.astro';
+import { Pill } from '@eliancodes/brutal-ui';
+import { Button } from '@eliancodes/brutal-ui';
+import { Card } from '@eliancodes/brutal-ui';
+import type { FileWatcherEventKind } from 'typescript';
+
+const online = [
+  { name: 'Tumblr', url: 'https://www.tumblr.com/blog/jess-lynn-rose' },
+  {
+    name: 'Mastodon',
+    url: 'https://mastodon.social/@jessie',
+  },
+  {
+    name: 'Github',url: 'github.com/jessicarose'},
+    { name: 'Dev.to', url: 'https://dev.to/jesslynnrose' },
+    { name: 'Reddit', url:'https://www.reddit.com/user/jesslynnrose/'},
+    { name: 'Brum Tech Slack', url:'https://docs.google.com/forms/d/e/1FAIpQLSex78x9s3Ijl9PruWpy1vMsRrqdu75N3D4wnicg0983WUBMGg/viewform?usp=sf_link'},
+    { name: 'Twitter', url:'https://twitter.com/jesslynnrose'}
+];
+---
+
+<Layout
+  title='Jessica.tech'
+  pageTitle='Contact'
+  description='How to get in touch with Jess'
+>
+  <main class='bg-pink p-6 h-screen'>
+    <MobileSocials />
+    <section id='about' class='grid md:grid-cols-8 md:grid-rows-2 gap-8 mt-4 items-stretch'>
+      <h2 class='hidden'>How to contact Jess</h2>
+      <div class='col-span-5 '>
+        <Card>
+          <div class='flex flex-col justify-between items-start gap-4'>
+            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
+              Let's chat
+            </p>
+            <p class='mt-1 outfit text-xl md:text-1xl lg:text-1xl'>
+              Hello. The best way to reach me is to email me. Say hello@ this domain if you need to get me.
+            </p>
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">Good reasons to email me: you want to ask about something I wrote, you want to talk about why Birmingham is the best city, you want me to come give a talk at your event, you want to show me a picture of your pet, you want to hire me for some cool work or you want to talk about a cool language thing.</p>
+
+            <p class="mt-2 outfit text-xl md:text-1xl lg:text-1xl">You can skip emailing me if: you want to sell me something, you want to be weird in an unchill way or you want to fight about something.</p>
+          </div>
+        </Card>
+      </div>
+      <div class='col-span-4 sm:col-span-2 row-span-1'>
+        <Card>
+          <h2 class='text-2xl md:text-2xl lg:text-5xl mb-8 dm-serif'>
+            Sometimes online at:
+          </h2>
+          <ul class='flex gap-4 flex-wrap'>
+            {
+              online.map((item) => (
+                <li>
+                  <Pill>
+                    <a
+                      class='sanchez'
+                      href={item.url}
+                      target='_blank'
+                      title={`Go to ${item.name}`}
+                    >
+                      {item.name}
+                    </a>
+                  </Pill>
+                </li>
+              ))
+            }
+          </ul>
+        </Card>
+      </div>
+      
+    </section>
+  </main>
+</Layout>
