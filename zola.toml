@@ -1,0 +1,32 @@
+# The URL the site will be built for
+base_url = "https://jessica.tech"
+title = "Jessica.tech"
+description = "A personal website and blog for technologist Jessica Rose"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+
+
+
+# Taxonomies (tags and categories)
+taxonomies = [
+    {name = "tags", feed = true},
+    {name = "categories", feed = true},
+]
+
+[markdown]
+# Enable smart punctuation and other features
+smart_punctuation = true
+
+
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+author = "Jess Rose"

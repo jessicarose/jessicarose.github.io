@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Jessica.tech - jobhunting</title>
+    <subtitle>A personal website and blog for technologist Jessica Rose</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://jessica.tech/tags/jobhunting/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://jessica.tech"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-10-28T00:00:00+00:00</updated>
+    <id>https://jessica.tech/tags/jobhunting/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Jobhunt Spreadsheet System</title>
+        <published>2026-10-28T00:00:00+00:00</published>
+        <updated>2026-10-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://jessica.tech/blog/jobs-spreadsheet/"/>
+        <id>https://jessica.tech/blog/jobs-spreadsheet/</id>
+        
+        <content type="html" xml:base="https://jessica.tech/blog/jobs-spreadsheet/">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Looking for work sucks. I hate it. You hate it. It’s all just terrible. I’ve always especially hated the how searching for new job leads creeps into more and more of your online life as a job hunt continues. I also despise serially refreshing the jobs pages of that one company I actually really want to work at, to see if they’ve finally decided to post a job I would be great at in the hours since my last refresh.&lt;&#x2F;p&gt;
+&lt;p&gt;I can’t make job hunting suck less, but I’ve created an approach I use to structure research into organizations I would like to work for that makes checking for jobs with them more repeatable.&lt;&#x2F;p&gt;
+&lt;p&gt;My own use of this spreadsheet has morphed into my blog posts and social media threads of tech for good-ish job openings I find during my weekly-ish use of this process.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tl-dr-summary-of-the-system&quot;&gt;TL;DR Summary of the system:&lt;&#x2F;h2&gt;
+&lt;p&gt;Keep a spreadsheet with links to the job pages of organizations you would want to work with. Make time each week to quickly look at all the collected jobs pages at the same time to scan for relevant job openings.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-i-like-this-system&quot;&gt;Why I like this system:&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Reusability&lt;&#x2F;strong&gt;: We’ll be researching and creating a list of companies you might like to work with.  You can use this in a current job hunt and pull it back out for future job hunts.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;FOMO reduction&lt;&#x2F;strong&gt;: Once you’ve made your spreadsheet, you’ll be checking it weekly. Almost any openly posted job will be up for a week or more, so this system should keep you from missing out. And if you do see a great job that’s already closed, you can add the org to your spreadsheet to watch for the next time it’s open.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Timeboxing&lt;&#x2F;strong&gt;: We’re adding a recurring calendar block to quickly look at these sites each week. By limiting this task to a set time each week, it limits the amount of time you’re worried about this…leaving you more time to worry about everything else…&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Quick filtering to minimize spiralling&lt;&#x2F;strong&gt;: You’re quickly glancing at the job sites and saving any jobs that seem intersting to look at later. It’s easy to stall out second guessing yourself when you’re looking at a job description. Focusing on quickly scanning for jobs to filter later means you’re not getting mired down with self doubt at this phase in the process.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Little treats for dopamine&lt;&#x2F;strong&gt;: I like to have an optional treat with my weekly tour through my collected links. Everything about job hunting is stressful and weird and bad. Pairing a repeated task with a little treat just feels humane.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;detailed-process&quot;&gt;Detailed Process:&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;tools-needed&quot;&gt;Tools needed&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spreadsheet software of your choice&lt;&#x2F;li&gt;
+&lt;li&gt;A web browser with an extension&#x2F;add on that lets you open a list of links in different tabs.
+&lt;ul&gt;
+&lt;li&gt;I use &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;htrinter&#x2F;Open-Multiple-URLs&quot;&gt;this extension&lt;&#x2F;a&gt; with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;vivaldi.com&quot;&gt;Vivaldi&lt;&#x2F;a&gt; but it also works with other Chromium based browsers or Firefox.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A personal calendar&lt;&#x2F;li&gt;
+&lt;li&gt;A text editor or note taking application&lt;&#x2F;li&gt;
+&lt;li&gt;(Optional but highly recommended) Small, repeatable little treats: Fancier-than-usual coffee or nice sweets might work well.
+&lt;ul&gt;
+&lt;li&gt;I have some almond croissants I keep in the freezer for this!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;getting-set-up&quot;&gt;Getting set up&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Get the link opener add-on of your choice added to your favorite browser.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a new spreadsheet, you don’t have to worry too much about the structure now.&lt;&#x2F;li&gt;
+&lt;li&gt;Begin adding companies or organizations to the spreadsheet, adding an organization per row. The only essential fields are a column for links to each org’s careers page and a column for notes but I also like to include the name of each organization because it’s not always instantly apparent from the links to jobs pages.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a repeating calendar event for yourself every week to block off focus time to look at all the links you’ve collected&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;(Optional but highly recommended) Make sure you have your little treats of choice stocked&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I’ve created an example table of what your spreadsheet might look like below.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Jobs Page Link&lt;&#x2F;th&gt;&lt;th&gt;Notes&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;RSPB&lt;&#x2F;td&gt;&lt;td&gt;https:&#x2F;&#x2F;www.rspb.org.uk&#x2F;careers&#x2F;vacancies-listing&lt;&#x2F;td&gt;&lt;td&gt;Past roles included webdev, IT support and field hardware&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Durrell Wildlife Conservation Trust&lt;&#x2F;td&gt;&lt;td&gt;https:&#x2F;&#x2F;durrell.occupop-careers.com&#x2F;#vacancies&lt;&#x2F;td&gt;&lt;td&gt;Conservation org and aye-aye experts&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Battersea Dogs and Cats Home&lt;&#x2F;td&gt;&lt;td&gt;https:&#x2F;&#x2F;careers.battersea.org.uk&#x2F;Battersea&#x2F;Home&lt;&#x2F;td&gt;&lt;td&gt;Has had webdev, data and other tech roles. Perks involve free vetcare for pets employees have adopted from them!&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;weekly-spreadsheet-use&quot;&gt;Weekly spreadsheet use:&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;(Still optional, but why would you not do something nice for yourself?) Prep your small treat just before your scheduled weekly focus time&lt;&#x2F;li&gt;
+&lt;li&gt;Open a blank document in your text editor or note taking application&lt;&#x2F;li&gt;
+&lt;li&gt;Open a new browser window&lt;&#x2F;li&gt;
+&lt;li&gt;Copy and paste all the jobs page links from your spreadsheet into your multiple link opening extension and open these links in new browser tabs&lt;&#x2F;li&gt;
+&lt;li&gt;Quickly tab through the opened jobs pages to scan for listed jobs that sound [like your dream job, like a good fit for, acceptable, tolerable] and copy and paste the URLs of job descriptions for these jobs into your text editor to look at later. Don’t think too much about individual jobs at this stage. If a job sounds at all interesting, put the URL in your notes to think about later.&lt;&#x2F;li&gt;
+&lt;li&gt;Make time later in your day or week to filter through your list of interesting jobs and to apply for the ones that survived the shortlisting process.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;strong&gt;Strong suggestion&lt;&#x2F;strong&gt;: I recommend continuing to use this system even after you’ve found a job. Even if you’re in a job you love! Knowing what companies you would want to work for are hiring for is valuable even when you’re not actively looking for work. Keep the little treats as a part of the process, too. Building in the habit of looking at jobs and having a nice pastry built into your Tuesday mornings won’t hurt you and could help a lot.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ongoing-processes&quot;&gt;Ongoing processes:&lt;&#x2F;h3&gt;
+&lt;p&gt;This system doesn’t replace researching roles and organizations, you’ll want to continue to make these tasks a part of your job hunt. Your list will become more valuable as you add to it over time.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a habit of adding new organizations to your spreadsheet as you discover them through your research or as you hear about them in your daily life and wandering across the web.
+&lt;ul&gt;
+&lt;li&gt;I’ve gotten into the habit of sending myself a note in a Signal message when I hear about something I want to add to my spreadsheet, creating a quick ToDo I can follow up on later without&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Edit and customize the spreadsheet to meet your needs
+&lt;ul&gt;
+&lt;li&gt;Delete organizations that don’t hold your interest over time&lt;&#x2F;li&gt;
+&lt;li&gt;Add notes about orgs and the roles they offer as you see them&lt;&#x2F;li&gt;
+&lt;li&gt;Add extra fields that you find useful: social media handles, contacts you have..anything that works best for you&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
