@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jessica.tech</title>
-    <meta name="description" content="A personal website and blog for technologist Jessica Rose">
-    <link rel="stylesheet" href="/style.css">
-    
-    
-    <link rel="/">
-</head>
-<body>
-    <header>
-        <h1><a href="/">Jess Rose 👋</a></h1>
-        <nav>
-            <a href="/" class="linkpill">Home</a>
-            <a href="/blog/" class="linkpill">Blog</a>
-            <a href="/work/" class="linkpill">Work with Jess</a>
-        </nav>
-    </header>
-    
-    <main>
-        
+{% extends "base.html" %}
+
+{% block content %}
 <div class="home">
     <section id="about" class="sectionstyle">
         <p class="strapline">Hi, I'm Jess Rose. I'm <span class="highlight">excited </span> about language, technology
@@ -92,28 +71,20 @@
                 href="https://discord.gg/UgweYN8q">Discord</a>
     </section>
 
- 
-        
+ {% set blog_section = get_section(path="blog/_index.md") %}
+        {% if blog_section.pages %}
         <section class="recent-posts sectionstyle" id="blog-bumper">
             <h2>Recent Blog Posts</h2>
             <div class="posts preview-posts">
-                
+                {% for page in blog_section.pages %}
                 <article class="post-preview">
-                    <h3><a href="https:&#x2F;&#x2F;jessica.tech&#x2F;blog&#x2F;2026-10-jobs&#x2F;">Tech for Good (or Minimally Evil) Jobs Discovered Oct 2026</a></h3>
-                    <time datetime="2026-10-29">October 29, 2026</time>
-                    
-                    <p>Jess likes to </p>
-                    
+                    <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+                    <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+                    {% if page.description %}
+                    <p>{{ page.description }}</p>
+                    {% endif %}
                 </article>
-                
-                <article class="post-preview">
-                    <h3><a href="https:&#x2F;&#x2F;jessica.tech&#x2F;blog&#x2F;jobs-spreadsheet&#x2F;">Jobhunt Spreadsheet System</a></h3>
-                    <time datetime="2026-10-28">October 28, 2026</time>
-                    
-                    <p>A system for using spreadsheets to make job hunting processes repeatable and hopefully less painful</p>
-                    
-                </article>
-                
+                {% endfor %}
             </div>
          <!--<a href="/blog/" class="view-all squarelink">View all posts →</a>-->   
         </section>
@@ -125,13 +96,6 @@
 
 
 
-    
+    {% endif %}
 </div>
-
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 Jess Rose</p>
-    </footer>
-</body>
-</html>
+{% endblock %}

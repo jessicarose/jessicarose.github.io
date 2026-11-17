@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang | default(value="en") }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jessica.tech</title>
-    <meta name="description" content="A personal website and blog for technologist Jessica Rose">
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ config.description }}{% endblock %}">
     <link rel="stylesheet" href="/style.css">
     
-    
+    {% if config.generate_feed %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="#">
+    {% endif %}
     <link rel="/">
 </head>
 <body>
@@ -21,11 +23,11 @@
     </header>
     
     <main>
-        
+        {% block content %}{% endblock %}
     </main>
     
     <footer>
-        <p>&copy; 2026 Jess Rose</p>
+        <p>&copy; {{ now() | date(format="%Y") }} {{ config.extra.author }}</p>
     </footer>
 </body>
 </html>

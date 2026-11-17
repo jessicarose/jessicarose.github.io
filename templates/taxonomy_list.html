@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ taxonomy.name | title }} | {{ config.title }}
+{% endblock %}
+
+{% block content %}
+<div class="tags-list">
+    <h1>{{ taxonomy.name | title }}</h1>
+    <ul>
+        {% for term in terms %}
+        {% set page_count = [term.page_count | num_format(locale=lang), " post", term.page_count | pluralize] | join %}
+        <li><a href="{{ term.permalink | safe }}">{{ term.name }}</a> ({{ page_count }})</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
