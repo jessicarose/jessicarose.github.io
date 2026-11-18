@@ -115,7 +115,7 @@ Kenya $112,350
 
 
 ### Remote [Senior Web Security Engineer, Browser Platform](https://jobs.ashbyhq.com/duck-duck-go/12b7b49c-ee06-4d70-8504-657343ebe4d0)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com privacy preserving search engine
    - United States: $190,500 USD
 United Kingdom: £134,600 GBP
 Canada: CA$253,500 CAD
@@ -218,7 +218,7 @@ Portugal: €3,025 - €4,030 (x14)
 
 
 ### Remote; Argentina (Remote); Austria (Remote); Bosnia and Herzegovina (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Croatia (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Greece (Remote); Hungary (Remote); Iceland (Remote); Ireland (Remote); Israel (Remote); Japan (Remote); Kyrgyzstan (Remote); Latvia (Remote); Malta (Remote); Mauritius (Remote); Mexico (Remote); Poland (Remote); Portugal (Remote); Romania (Remote); Singapore (Remote); Slovakia (Remote); Slovenia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote); USA (Remote) [Senior C++ Engineer](https://jobs.ashbyhq.com/duck-duck-go/af93b075-d60a-4686-abeb-5949206d2f53)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com privacy preserving search engine
    - United States: $190,500 USD annually
 United Kingdom: £134,600 GBP annually
 Canada: C$253,500 CAD annually
@@ -226,7 +226,7 @@ Europe/Rest of World: €157,350 EUR annually
 
 
 ### Remote; Argentina (Remote); Austria (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Finland (Remote); Hungary (Remote); Iceland (Remote); India (Remote); Ireland (Remote); Israel (Remote); Japan (Remote); Kyrgyzstan (Remote); Latvia (Remote); Malta (Remote); Mexico (Remote); Poland (Remote); Romania (Remote); Singapore (Remote); Slovakia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote); USA (Remote) [Senior Privacy Engineer](https://jobs.ashbyhq.com/duck-duck-go/80797cf4-64b2-4e94-9d87-6f2ecc45c862)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD
 United Kingdom: £134,600 GBP
 Canada: CA$253,500 CAD
@@ -234,7 +234,7 @@ All other regions*: €157,350 EUR
 
 
 ### Remote; Argentina (Remote); Austria (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Finland (Remote); Hungary (Remote); Iceland (Remote); India (Remote); Ireland (Remote); Israel (Remote); Japan (Remote); Kyrgyzstan (Remote); Latvia (Remote); Malta (Remote); Mexico (Remote); Poland (Remote); Romania (Remote); Singapore (Remote); Slovakia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote); USA (Remote) [Senior Web Compatibility Engineer](https://jobs.ashbyhq.com/duck-duck-go/d02d7598-141b-4a84-bdf6-46677da89b08)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD
 United Kingdom: £134,600 GBP
 Canada: CA$253,500 CAD
@@ -297,7 +297,7 @@ All other regions*: €157,350 EUR
 
 
 ### USA (Remote); Argentina (Remote); Austria (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Croatia (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Finland (Remote); Hungary (Remote); Iceland (Remote); Ireland (Remote); Israel (Remote); Latvia (Remote); Malta (Remote); Mexico (Remote); Poland (Remote); Slovakia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote) [Senior Data Scientist](https://jobs.ashbyhq.com/duck-duck-go/a447e823-fd8f-438f-909e-db1f6ced8c97)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD
 United Kingdom: £134,600 GBP
 Canada: CA$253,500 CAD
@@ -305,7 +305,7 @@ All other regions*: €157,350 EUR
 
 
 ### USA (Remote); Argentina (Remote); Austria (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Croatia (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Finland (Remote); Hungary (Remote); Iceland (Remote); Ireland (Remote); Israel (Remote); Latvia (Remote); Malta (Remote); Mexico (Remote); Poland (Remote); Slovakia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote) [Senior Backend Engineer](https://jobs.ashbyhq.com/duck-duck-go/53022b02-da3d-4fda-8273-c897d27ed50d)
-[Duck Duck Go](duckduckgo.com) privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD annually
 United Kingdom: £134,600 GBP annually
 Canada: C$253,500 CAD annually
