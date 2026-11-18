@@ -115,7 +115,7 @@ Kenya $112,350
 
 
 ### Remote [Senior Web Security Engineer, Browser Platform](https://jobs.ashbyhq.com/duck-duck-go/12b7b49c-ee06-4d70-8504-657343ebe4d0)
-[Duck Duck Go](https://duckduckgo.com privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD
 United Kingdom: £134,600 GBP
 Canada: CA$253,500 CAD
@@ -218,7 +218,7 @@ Portugal: €3,025 - €4,030 (x14)
 
 
 ### Remote; Argentina (Remote); Austria (Remote); Bosnia and Herzegovina (Remote); Brazil (Remote); Bulgaria (Remote); Canada (Remote); Croatia (Remote); Cyprus (Remote); Czechia (Remote); Estonia (Remote); Greece (Remote); Hungary (Remote); Iceland (Remote); Ireland (Remote); Israel (Remote); Japan (Remote); Kyrgyzstan (Remote); Latvia (Remote); Malta (Remote); Mauritius (Remote); Mexico (Remote); Poland (Remote); Portugal (Remote); Romania (Remote); Singapore (Remote); Slovakia (Remote); Slovenia (Remote); South Africa (Remote); Spain (Remote); Switzerland (Remote); UK (Remote); Uruguay (Remote); USA (Remote) [Senior C++ Engineer](https://jobs.ashbyhq.com/duck-duck-go/af93b075-d60a-4686-abeb-5949206d2f53)
-[Duck Duck Go](https://duckduckgo.com privacy preserving search engine
+[Duck Duck Go](https://duckduckgo.com) privacy preserving search engine
    - United States: $190,500 USD annually
 United Kingdom: £134,600 GBP annually
 Canada: C$253,500 CAD annually
