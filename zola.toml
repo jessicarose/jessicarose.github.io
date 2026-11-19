@@ -9,8 +9,11 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_feeds = true
 
+feed_filenames = ["rss.xml", "atom.xml"]
 
+author = "Jess Rose"
 
 # Taxonomies (tags and categories)
 taxonomies = [
@@ -29,4 +32,3 @@ theme = "catppuccin-mocha"
 
 [extra]
 # Put all your custom variables here
-author = "Jess Rose"
